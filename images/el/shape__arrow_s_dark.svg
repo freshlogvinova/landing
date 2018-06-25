@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="314px" height="167px" viewBox="0 0 314 167" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>shape__arrow_s</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="90.625%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#373D4A" offset="0%"></stop>
+            <stop stop-color="#373D4A" stop-opacity="0.56878592" offset="31.6451149%"></stop>
+            <stop stop-color="#373D4A" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-878.000000, -1219.000000)" fill="url(#linearGradient-1)">
+            <path d="M923.052468,1219 L1146.94753,1219 L1146.94753,1284 L1185.75,1284 C1189.20178,1284 1192,1286.79822 1192,1290.25 L1192,1290.72191 C1192,1294.29702 1190.09141,1297.60018 1186.99404,1299.3856 L1039.99404,1384.12127 C1036.90306,1385.90301 1033.09694,1385.90301 1030.00596,1384.12127 L883.005961,1299.3856 C879.908591,1297.60018 878,1294.29702 878,1290.72191 L878,1290.25 C878,1286.79822 880.79822,1284 884.25,1284 L923.052468,1284 L923.052468,1219 Z" id="shape__arrow_s"></path>
+        </g>
+    </g>
+</svg>

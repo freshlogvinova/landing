@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icons / icon__video-play</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons-/-icon__video-play" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M57.8797035,40.4301405 L29.2090053,56.3631038 C28.8779665,56.5502127 28.5937092,56.5718019 28.3562248,56.427872 C28.1187404,56.283942 28,56.0248721 28,55.6506542 L28,23.8710852 C28,23.4968674 28.1187404,23.2377974 28.3562248,23.0938675 C28.5937092,22.9499375 28.8779665,22.9715267 29.2090053,23.1586356 L57.8797035,39.0915989 C58.2107423,39.2787078 58.3762593,39.5017959 58.3762593,39.7608697 C58.3762593,40.0199436 58.2107423,40.2430316 57.8797035,40.4301405 Z" id="play---FontAwesome" fill="#FFFFFF" transform="translate(43.188130, 39.760870) rotate(0.500000) translate(-43.188130, -39.760870) "></path>
+        <circle id="Oval" stroke="#FFFFFF" stroke-width="4" cx="40" cy="40" r="37"></circle>
+    </g>
+</svg>
