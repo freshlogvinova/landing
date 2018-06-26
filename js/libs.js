@@ -10317,7 +10317,7 @@ $special = $event.special.throttledresize = {
 
 
 /**
- * Swiper 4.3.3
+ * Swiper 4.3.2
  * Most modern mobile touch slider and framework with hardware accelerated transitions
  * http://www.idangero.us/swiper/
  *
@@ -10325,7 +10325,7 @@ $special = $event.special.throttledresize = {
  *
  * Released under the MIT License
  *
- * Released on: June 5, 2018
+ * Released on: June 1, 2018
  */
 
 (function (global, factory) {
@@ -11746,11 +11746,9 @@ $special = $event.special.throttledresize = {
         if (prevSlideSize === 0 && i !== 0) { slidePosition = slidePosition - (swiperSize / 2) - spaceBetween; }
         if (i === 0) { slidePosition = slidePosition - (swiperSize / 2) - spaceBetween; }
         if (Math.abs(slidePosition) < 1 / 1000) { slidePosition = 0; }
-        if (params.roundLengths) { slidePosition = Math.floor(slidePosition); }
         if ((index) % params.slidesPerGroup === 0) { snapGrid.push(slidePosition); }
         slidesGrid.push(slidePosition);
       } else {
-        if (params.roundLengths) { slidePosition = Math.floor(slidePosition); }
         if ((index) % params.slidesPerGroup === 0) { snapGrid.push(slidePosition); }
         slidesGrid.push(slidePosition);
         slidePosition = slidePosition + slideSize + spaceBetween;
@@ -11782,9 +11780,7 @@ $special = $event.special.throttledresize = {
       if (params.centeredSlides) {
         newSlidesGrid = [];
         for (var i$1 = 0; i$1 < snapGrid.length; i$1 += 1) {
-          var slidesGridItem = snapGrid[i$1];
-          if (params.roundLengths) { slidesGridItem = Math.floor(slidesGridItem); }
-          if (snapGrid[i$1] < swiper.virtualSize + snapGrid[0]) { newSlidesGrid.push(slidesGridItem); }
+          if (snapGrid[i$1] < swiper.virtualSize + snapGrid[0]) { newSlidesGrid.push(snapGrid[i$1]); }
         }
         snapGrid = newSlidesGrid;
       }
@@ -11794,10 +11790,8 @@ $special = $event.special.throttledresize = {
     if (!params.centeredSlides) {
       newSlidesGrid = [];
       for (var i$2 = 0; i$2 < snapGrid.length; i$2 += 1) {
-        var slidesGridItem$1 = snapGrid[i$2];
-        if (params.roundLengths) { slidesGridItem$1 = Math.floor(slidesGridItem$1); }
         if (snapGrid[i$2] <= swiper.virtualSize - swiperSize) {
-          newSlidesGrid.push(slidesGridItem$1);
+          newSlidesGrid.push(snapGrid[i$2]);
         }
       }
       snapGrid = newSlidesGrid;
@@ -12172,7 +12166,7 @@ $special = $event.special.throttledresize = {
       if (Support.transforms3d) { $wrapperEl.transform(("translate3d(" + x + "px, " + y + "px, " + z + "px)")); }
       else { $wrapperEl.transform(("translate(" + x + "px, " + y + "px)")); }
     }
-    swiper.previousTranslate = swiper.translate;
+
     swiper.translate = swiper.isHorizontal() ? x : y;
 
     // Check if we need to update progress
@@ -12443,13 +12437,10 @@ $special = $event.special.throttledresize = {
       swiper._clientLeft = swiper.$wrapperEl[0].clientLeft;
     }
     var translate = rtlTranslate ? swiper.translate : -swiper.translate;
-    function normalize(val) {
-      if (val < 0) { return -Math.floor(Math.abs(val)); }
-      return Math.floor(val);
-    }
-    var normalizedTranslate = normalize(translate);
-    var normalizedSnapGrid = snapGrid.map(function (val) { return normalize(val); });
-    var normalizedSlidesGrid = slidesGrid.map(function (val) { return normalize(val); });
+
+    var normalizedTranslate = translate < 0 ? -Math.floor(Math.abs(translate)) : Math.floor(translate);
+    var normalizedSnapGrid = snapGrid.map(function (val) { return Math.floor(val); });
+    var normalizedSlidesGrid = slidesGrid.map(function (val) { return Math.floor(val); });
 
     var currentSnap = snapGrid[normalizedSnapGrid.indexOf(normalizedTranslate)];
     var prevSnap = snapGrid[normalizedSnapGrid.indexOf(normalizedTranslate) - 1];
@@ -14077,7 +14068,6 @@ $special = $event.special.throttledresize = {
 
         // Props
         translate: 0,
-        previousTranslate: 0,
         progress: 0,
         velocity: 0,
         animating: false,
@@ -14988,7 +14978,7 @@ $special = $event.special.throttledresize = {
         swiper.emit('scroll', e);
 
         // Stop autoplay
-        if (swiper.params.autoplay && swiper.params.autoplayDisableOnInteraction) { swiper.autoplay.stop(); }
+        if (swiper.params.autoplay && swiper.params.autoplayDisableOnInteraction) { swiper.stopAutoplay(); }
         // Return page scroll on edge positions
         if (position === swiper.minTranslate() || position === swiper.maxTranslate()) { return true; }
       }

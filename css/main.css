@@ -4411,6 +4411,12 @@ $font-folder: '.../fonts/redacted/'; // '../../files./fonts/';
 @include font-face('Redacted Script', 'redacted-script-bold', 600, normal);
 
 */
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 body {
   font-size: 0.875rem; }
   @media (min-width: 576px) {
@@ -4438,7 +4444,9 @@ h5 {
 
 ul.featureList {
   list-style-type: none;
-  padding-left: 0; }
+  padding-left: 0;
+  font-variant-caps: all-small-caps;
+  font-variant: small-caps; }
   ul.featureList li {
     position: relative;
     padding-left: 22.5px;
@@ -4450,8 +4458,8 @@ ul.featureList {
 
 .link--more {
   display: inline-block;
-  margin-top: 1rem;
-  color: #dc3545; }
+  color: #dc3545;
+  margin-top: 1rem; }
 
 .pageHeader {
   margin-bottom: 2rem; }
@@ -4464,6 +4472,12 @@ ul.featureList {
     .pageHeader h1 .lead {
       font-size: 1.2rem; }
 
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 picture.img-fluid img,
 picture.img-fluid source {
   max-width: 100%;
@@ -4471,8 +4485,8 @@ picture.img-fluid source {
 
 .buttonRow {
   display: flex;
-  margin-top: 2rem;
-  flex-flow: column wrap; }
+  flex-flow: column wrap;
+  margin-top: 2rem; }
   @media (min-width: 576px) {
     .buttonRow {
       flex-flow: row nowrap;
@@ -4491,11 +4505,11 @@ picture.img-fluid source {
 .clientLogos .small {
   font-size: 11px; }
 .clientLogos .logos {
-  margin-top: 1rem;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  width: 58.3333333333%; }
+  width: 58.3333333333%;
+  margin-top: 1rem; }
   .clientLogos .logos img {
     width: 65px;
     margin-right: 1em;
@@ -4525,22 +4539,28 @@ picture.img-fluid source {
 
 .timeline {
   display: flex;
+  position: relative;
   margin-left: -0.5rem;
-  margin-right: -0.5rem;
-  position: relative; }
+  margin-right: -0.5rem; }
   .timeline .timeline__item {
+    position: relative;
+    font-weight: bold;
+    background-image: url(/images/snippets_white_10.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    position: relative;
-    font-weight: bold;
-    background-image: url(/images/snippets_white_10.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat; }
+    margin-right: 0.5rem; }
 
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 body {
   margin-bottom: 0; }
 
@@ -4548,6 +4568,12 @@ body {
   padding-top: 8rem;
   padding-bottom: 6rem; }
 
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 .siteHeader {
   background-color: #fff;
   position: fixed;
@@ -4560,10 +4586,10 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-    position: relative; }
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
     @media (min-width: 576px) {
       .siteHeader > .container {
         height: 80px; } }
@@ -4604,7 +4630,9 @@ body {
   @media (min-width: 576px) {
     .siteLogo {
       width: 140px; } }
-  .siteLogo svg, .siteLogo img, .siteLogo object {
+  .siteLogo svg,
+  .siteLogo img,
+  .siteLogo object {
     width: auto;
     height: auto;
     max-width: 100%; }
@@ -4613,13 +4641,19 @@ body {
   display: flex;
   align-items: center; }
 
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 .siteFooter {
   min-height: calc(100vh - 80px);
   background-color: #99a3b5;
-  padding-top: 6rem;
-  padding-bottom: 8rem;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  padding-top: 6rem;
+  padding-bottom: 8rem; }
 
 .footer__logo {
   display: flex;
@@ -4635,15 +4669,21 @@ body {
   list-style-type: none;
   margin-left: 0; }
   .footer__links p {
-    font-variant: small-caps;
-    font-variant-caps: all-small-caps; }
+    font-variant-caps: all-small-caps;
+    font-size: 0.875rem; }
 
 .footer__copyright {
-  font-variant: small-caps;
-  font-variant-caps: all-small-caps;
   text-align: center;
+  font-variant-caps: all-small-caps;
+  font-size: 0.875rem;
   margin-top: 3rem; }
 
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 .icon--burger .bar {
   transition: 0.3s transform cubic-bezier(0.175, 0.885, 0.32, 1.275); }
 
@@ -4735,6 +4775,12 @@ html.navlayer--open [data-toggle-navlayer]:hover {
       .navLayer__navSecondary .linkItem {
         font-size: 1.2rem; } }
 
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 .phone--xs {
   position: fixed;
   right: 0;
@@ -4772,6 +4818,12 @@ html.navlayer--open [data-toggle-navlayer]:hover {
     .swiper--phone--screens--xs .slideInfo h3 {
       font-size: 1rem; }
 
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 #screen--backend--xs {
   position: fixed;
   left: 50%;
@@ -4801,6 +4853,12 @@ html.navlayer--open [data-toggle-navlayer]:hover {
     transform: translateX(100vw);
     box-shadow: -5px -5px 20px -5px rgba(0, 0, 0, 0.4), -1px -1px 3px -1px rgba(0, 0, 0, 0.4); }
 
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 .phoneSlideWrapper:after {
   content: "";
   min-height: 1px;
@@ -4887,6 +4945,12 @@ body[data-bodybackground=blue] {
   body[data-bodybackground=blue] .panelPagination__bullet {
     background-color: #fff; }
 
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 .panel {
   display: flex;
   flex-flow: column nowrap;
@@ -5074,14 +5138,14 @@ h4.panel__heading {
   height: 240px;
   margin-top: 2rem;
   background-size: contain;
-  background-image: url(/images/el/snippets_content.png);
+  background-image: url(./images/el/snippets_content.png);
   background-repeat: repeat-x;
   margin-left: -180px;
   animation: slidecontent 10s linear infinite; }
 
 @keyframes slidecontent {
   from {
-    background-position: 0px center; }
+    background-position: 0 center; }
   to {
     background-position: 920px center; } }
 /*
@@ -5135,12 +5199,18 @@ h4.panel__heading {
 .snippetStack_03 {
   max-width: 160px; }
 
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 .btn {
-  font-variant: small-caps;
-  font-variant-caps: all-small-caps;
   font-size: 1.2rem;
   letter-spacing: .1em;
   padding: 0.325rem 1rem 0.425rem;
+  font-variant-caps: all-small-caps;
+  font-size: 0.875rem;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem; }
 
@@ -5148,6 +5218,12 @@ h4.panel__heading {
   background-color: #F6704D;
   color: #fff; }
 
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 .colorWrapper:after {
   content: "";
   min-height: 1px;
@@ -5239,10 +5315,10 @@ h4.panel__heading {
   padding: 30px; }
   .phoneContent__content .tagline {
     font-size: 0.875rem;
-    font-variant: small-caps;
-    font-variant-caps: all-small-caps;
     color: #F6704D;
     font-weight: bold;
+    font-variant-caps: all-small-caps;
+    font-size: 0.875rem;
     margin-bottom: 0.25rem; }
     @media (min-width: 1200px) {
       .phoneContent__content .tagline {
@@ -5281,13 +5357,13 @@ h4.panel__heading {
     .phoneScreen .placeholder ul {
       list-style-type: none; }
       .phoneScreen .placeholder ul li {
-        padding-left: 1.5rem;
-        position: relative; }
+        position: relative;
+        padding-left: 1.5rem; }
         .phoneScreen .placeholder ul li:before {
           content: "\2192";
           position: absolute;
-          margin-left: -1.5rem;
-          margin-top: 1px; }
+          margin-top: 1px;
+          margin-left: -1.5rem; }
 
 .phoneScreenSlideWrapper {
   position: relative;
@@ -5428,6 +5504,12 @@ h4.panel__heading {
   padding-bottom: 1rem;
   min-height: 660px; }
 
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 #screen--backend {
   display: none;
   position: fixed;
@@ -5448,20 +5530,20 @@ h4.panel__heading {
       width: 700px; } }
 
 .screenBackend__shader {
+  background-image: linear-gradient(rgba(51, 92, 135, 0) 25%, rgba(51, 92, 135, 0.8) 75%);
+  z-index: 10;
+  opacity: 0;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
-  background-image: linear-gradient(rgba(51, 92, 135, 0) 25%, rgba(51, 92, 135, 0.8) 75%);
-  z-index: 10;
-  opacity: 0; }
+  left: 0; }
 
 .panel--backend .panel__inner {
   justify-content: flex-end; }
 .panel--backend .panel__content {
-  padding-right: 0rem;
-  flex-basis: 83.3333333333%; }
+  flex-basis: 83.3333333333%;
+  padding-right: 0rem; }
   @media (min-width: 576px) {
     .panel--backend .panel__content {
       flex-basis: 33.3333333333%; } }
@@ -5534,21 +5616,21 @@ h4.panel__heading {
       width: 60px; }
 
 .screenBackend__card--mix {
+  display: flex;
+  justify-content: stretch;
   margin-left: 0.75rem;
   margin-right: 0.75rem;
-  margin-top: 1rem;
-  display: flex;
-  justify-content: stretch; }
+  margin-top: 1rem; }
   .screenBackend__card--mix + .screenBackend__card--mix {
     border-top: 1px solid #dde0e6;
     padding-top: 1rem; }
   .screenBackend__card--mix.active {
     background-color: #cfe1f4;
+    border-radius: 0 0.25rem 0.25rem 0;
     margin-left: 0rem;
     padding-left: 0.75rem;
     padding-top: 0.5rem;
-    padding-bottom: 0.75rem;
-    border-radius: 0 0.25rem 0.25rem 0; }
+    padding-bottom: 0.75rem; }
     .screenBackend__card--mix.active .lipsum-bars.excerpt .lipsum-bar {
       background-color: rgba(0, 0, 0, 0.3); }
     .screenBackend__card--mix.active .lipsum-bars.title .lipsum-bar {
@@ -5587,14 +5669,14 @@ h4.panel__heading {
 
 */
 .screenBackend__card {
-  margin-left: 0.75rem;
-  margin-bottom: 0.5rem;
   display: flex;
   justify-content: stretch;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 1px 1px -1px rgba(0, 0, 0, 0.3);
-  margin-right: 2px; }
+  margin-right: 2px;
+  margin-left: 0.75rem;
+  margin-bottom: 0.5rem; }
   .screenBackend__card .bCard__content .tchopCard__socialHeader {
     align-items: center;
     margin-bottom: 0;
@@ -5638,9 +5720,9 @@ h4.panel__heading {
   font-variant: all-small-caps;
   font-size: 1.3rem;
   display: flex;
-  margin-top: 0.5rem;
   position: absolute;
-  opacity: 0; }
+  opacity: 0;
+  margin-top: 0.5rem; }
   .metaLayer .meta__arrow {
     text-align: center;
     position: relative;
@@ -5720,16 +5802,16 @@ h4.panel__heading {
 
 */
 .screenBackend__users {
+  background-color: #dde0e6;
+  opacity: 0;
+  overflow-y: hidden;
+  color: #4d5668;
   position: absolute;
   width: 696px;
   height: 407px;
   top: 32px;
   left: 2px;
-  background-color: rgba(255, 209, 56, 0.4);
-  background-color: #dde0e6;
-  opacity: 0;
-  overflow-y: hidden;
-  color: #4d5668; }
+  background-color: rgba(255, 209, 56, 0.4); }
   .screenBackend__users .lipsum-bar {
     height: 6px;
     background-color: #c6cbd5; }
@@ -5761,22 +5843,22 @@ h4.panel__heading {
     color: #fff;
     font-size: 10px;
     font-weight: bold;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
     line-height: 24px;
     vertical-align: middle;
-    border-radius: 0 0.25rem 0.25rem 0; }
+    border-radius: 0 0.25rem 0.25rem 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
 
 .screenBackend__userList {
   background-color: #f2f3f5;
   padding-top: 2rem; }
 
 .screenBackend__userCard {
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   display: flex;
-  align-items: flex-start; }
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem; }
 
 .userCard__avatar {
   flex: 0 0 40px; }
@@ -5807,6 +5889,12 @@ h4.panel__heading {
 .screenBackend__userCard.inactive .userCard__avatar #shape-user {
   fill: #c6cbd5; }
 
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 .lipsum-bars {
   line-height: 1.1; }
   @media (min-width: 576px) {
@@ -5856,10 +5944,16 @@ h4.panel__heading {
   width: 30%;
   height: 7px; }
 
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 .swiper--snippets {
   max-width: 800px;
-  margin-top: 2rem;
-  z-index: 1; }
+  z-index: 1;
+  margin-top: 2rem; }
   .swiper--snippets .swiper-slide-active .snippet,
   .swiper--snippets .swiper-slide-prev .snippet {
     transform: translateX(600px);
@@ -5891,8 +5985,12 @@ h4.panel__heading {
 /*
   _________________________________________________________
 
-  //! Phone Screen
+  //! Mixins
 
+*/
+/*
+  _________________________________________________________
+  //! Phone Screen
 */
 .phoneScreen__header {
   background-color: #fff;
@@ -5946,11 +6044,11 @@ h4.panel__heading {
     background-color: #fff; }
   .phoneScreen--animated .phoneContent__image,
   .phoneScreen--stream .phoneContent__image {
-    margin-left: -1rem;
-    margin-right: -1rem;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    margin-left: -1rem;
+    margin-right: -1rem; }
   .phoneScreen--animated .slide--img,
   .phoneScreen--stream .slide--img {
     padding-top: 0.5rem; }
@@ -5976,10 +6074,10 @@ h4.panel__heading {
   padding-right: 1rem; }
   @media (min-width: 576px) {
     .slide--chat {
+      width: 100%;
       padding-left: 2rem;
       padding-right: 2rem;
-      padding-top: 1rem;
-      width: 100%; } }
+      padding-top: 1rem; } }
 
 .chat__item {
   margin-top: 0.75rem; }
@@ -5992,38 +6090,18 @@ h4.panel__heading {
       text-align: right; }
       .chat__item:nth-child(even) .chat__author .lipsum-bar:before {
         background-color: #F6704D; }
-    .chat__item:nth-child(even) .chat__bubble {
-      /*
-      &:after {
-        right: 30px;
-        left: auto;
-        border-left-color: transparent;
-        border-right-color: $white;
-      }
-      */ }
   .chat__item:nth-child(odd) {
     margin-right: 2rem; }
 
 .chat__bubble {
   background-color: #fff;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
   border-radius: 0.3rem;
   position: relative;
   box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.25), 1px 1px 3px -2px rgba(0, 0, 0, 0.25);
-  /*
-  &:after {
-    content: "";
-    border: 14px solid transparent;
-    border-left-color: $white;
-    bottom: -14px;
-    left: 30px;
-    right: auto;
-    position: absolute;
-  }
-  */ }
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem; }
   @media (min-width: 576px) {
     .chat__bubble {
       padding-left: 2rem;
@@ -6045,8 +6123,8 @@ h4.panel__heading {
   background-color: rgba(33, 38, 46, 0.4);
   max-width: 40px;
   height: 6px;
-  margin-top: 0.75rem;
-  margin-left: 22px; }
+  margin-left: 22px;
+  margin-top: 0.75rem; }
   @media (min-width: 576px) {
     .chat__author .lipsum-bar {
       max-width: 60px;
@@ -6073,6 +6151,12 @@ h4.panel__heading {
   .loopText .letter {
     display: inline-block; }
 
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 .appicon {
   display: flex;
   flex-flow: column nowrap;
@@ -6130,6 +6214,12 @@ svg.img--appicon {
   svg.img--appicon #appicon__branding {
     transform: translateX(25%) translateY(25%); }
 
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 .panel--cases .swiper-pagination {
   position: relative; }
 .panel--cases .panel__bottom .panel__inner {
@@ -6149,17 +6239,17 @@ svg.img--appicon {
 
 .useCases__menu {
   font-size: 0.875rem;
+  display: flex;
+  flex-flow: column nowrap;
   margin-left: -0.5rem;
   margin-right: -0.5rem;
-  margin-top: -0.5rem;
-  display: flex;
-  flex-flow: column nowrap; }
+  margin-top: -0.5rem; }
   .useCases__menu > a {
+    border-radius: 0.25rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    border-radius: 0.25rem; }
+    padding-bottom: 0.5rem; }
     .useCases__menu > a:hover {
       text-decoration: none;
       background-color: #bd2130;
@@ -6169,13 +6259,13 @@ svg.img--appicon {
 
 .useCasesWrapper {
   background: linear-gradient(120deg, #dc3545, #e4606d);
+  color: #fff;
+  border-radius: 0.3rem;
   margin-bottom: 4rem;
   padding-top: 2rem;
   padding-bottom: 1rem;
   padding-left: 2rem;
-  padding-right: 6rem;
-  color: #fff;
-  border-radius: 0.3rem; }
+  padding-right: 6rem; }
   .useCasesWrapper a {
     color: #fff; }
   .useCasesWrapper .swiper-pagination-bullet {
@@ -6205,9 +6295,9 @@ svg.img--appicon {
         left: 0; }
 
 .useCase__logo {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
   margin-bottom: 1rem;
-  padding-bottom: 0.25rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.8); }
+  padding-bottom: 0.25rem; }
   .useCase__logo svg {
     width: 120px;
     height: auto; }
@@ -6226,9 +6316,9 @@ svg.img--appicon {
       font-size: 2rem; } }
 
 .useCase__tagline {
-  font-variant: small-caps;
+  font-weight: bold;
   font-variant-caps: all-small-caps;
-  font-weight: bold; }
+  font-size: 0.875rem; }
 
 .useCase__description {
   font-size: 0.875rem; }
@@ -6252,11 +6342,17 @@ svg.img--appicon {
     width: 8px;
     height: 8px; }
 
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 .tchopCard {
   background-color: #fff;
-  margin-top: 0.75rem;
   border-radius: 0.3rem;
-  box-shadow: 0 5px 8px -5px rgba(0, 0, 0, 0.2), 0 0 3px -1px rgba(0, 0, 0, 0.5); }
+  box-shadow: 0 5px 8px -5px rgba(0, 0, 0, 0.2), 0 0 3px -1px rgba(0, 0, 0, 0.5);
+  margin-top: 0.75rem; }
 
 .tchopCard__image {
   position: relative; }
@@ -6350,19 +6446,17 @@ svg.img--appicon {
 
 /*
   _________________________________________________________
-
   //! App Header
-
 */
 .phoneScreen__header__inner {
   display: flex;
   background-color: #fff;
   min-height: 40px;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
   justify-content: space-between;
   align-items: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; }
   @media (min-width: 576px) {
     .phoneScreen__header__inner {
       min-height: 60px;
@@ -6393,9 +6487,7 @@ svg.img--appicon {
 
 /*
   _________________________________________________________
-
   //! Article
-
 */
 .tchopApp__article {
   background-color: #fff;
@@ -6417,20 +6509,20 @@ svg.img--appicon {
     font-size: 2rem;
     letter-spacing: -0.03em;
     font-variant-caps: all-small-caps;
-    padding-left: 1rem;
-    padding-right: 1rem;
     line-height: 0.7;
     background-color: rgba(0, 0, 0, 0.1);
-    opacity: 0.9; }
+    opacity: 0.9;
+    padding-left: 1rem;
+    padding-right: 1rem; }
     @media (min-width: 576px) {
       .tchopApp__article__image .textOnImage {
         font-size: 6rem;
         justify-content: center;
         text-align: center;
-        padding-left: 2rem;
-        padding-right: 2rem;
         right: 0;
-        width: auto; } }
+        width: auto;
+        padding-left: 2rem;
+        padding-right: 2rem; } }
     .tchopApp__article__image .textOnImage.top {
       align-items: flex-start;
       padding-top: 2rem; }
@@ -6465,6 +6557,12 @@ svg.img--appicon {
 .modal-header .close {
   padding: 1rem; }
 
+/*
+  _________________________________________________________
+
+  //! Mixins
+
+*/
 #intercomLauncher {
   position: fixed;
   right: 15px;
