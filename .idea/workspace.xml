@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd9f299a-0c22-4083-b093-56ca17377705" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/css/ie.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -17,8 +18,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="51">
+              <caret column="428" selection-start-column="428" selection-end-column="428" />
+              <folding>
+                <element signature="e#80058#80065#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,8 +39,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="401">
+              <caret line="6927" lean-forward="true" selection-start-line="6927" selection-end-line="6927" />
             </state>
           </provider>
         </entry>
@@ -48,15 +52,16 @@
       <find>/css/</find>
       <find>/fonts/</find>
       <find>/images</find>
-      <find>/css</find>
-      <find>/js</find>
       <find>http:</find>
       <find>http</find>
+      <find>/css</find>
+      <find>/js</find>
     </findStrings>
     <replaceStrings>
       <replace>./images</replace>
       <replace>./fonts/</replace>
       <replace>./images/</replace>
+      <replace>&quot;</replace>
       <replace>./css</replace>
       <replace>./js</replace>
     </replaceStrings>
@@ -105,6 +110,17 @@
               <item name="tchop-landing" type="b2602c69:ProjectViewProjectNode" />
               <item name="tchop-landing" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tchop-landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tchop-landing" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="main.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="tchop-landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tchop-landing" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tchop-landing" type="b2602c69:ProjectViewProjectNode" />
@@ -197,7 +213,7 @@
       <workItem from="1529935386918" duration="1274000" />
       <workItem from="1529997537473" duration="425000" />
       <workItem from="1530020716096" duration="1842000" />
-      <workItem from="1530080713230" duration="60000" />
+      <workItem from="1530080713230" duration="1508000" />
     </task>
     <task id="LOCAL-00001" summary="changed the path">
       <created>1529935814360</created>
@@ -220,11 +236,25 @@
       <option name="project" value="LOCAL" />
       <updated>1530021188185</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Removed the http">
+      <created>1530080850605</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1530080850605</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added autoprefixer">
+      <created>1530090834370</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530090834370</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3601000" />
+    <option name="totallyTimeSpent" value="5049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1600" height="1164" extended-state="6" />
@@ -273,13 +303,18 @@
     <MESSAGE value="changed the path" />
     <MESSAGE value="changed the fonts path" />
     <MESSAGE value="Updates from gitlab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates from gitlab" />
+    <MESSAGE value="Removed the http" />
+    <MESSAGE value="Added autoprefixer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added autoprefixer" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2584">
           <caret line="73" column="456" selection-start-line="73" selection-start-column="456" selection-end-line="73" selection-end-column="456" />
+          <folding>
+            <element signature="e#80058#80065#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -301,6 +336,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2669">
           <caret line="76" column="1214" selection-start-line="76" selection-start-column="1214" selection-end-line="76" selection-end-column="1214" />
+          <folding>
+            <element signature="e#80058#80065#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -315,6 +353,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2448">
           <caret line="76" column="1214" selection-start-line="76" selection-start-column="1214" selection-end-line="76" selection-end-column="1214" />
+          <folding>
+            <element signature="e#80058#80065#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -334,15 +375,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="401">
+          <caret line="6927" lean-forward="true" selection-start-line="6927" selection-end-line="6927" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="51">
+          <caret column="428" selection-start-column="428" selection-end-column="428" />
+          <folding>
+            <element signature="e#80058#80065#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
