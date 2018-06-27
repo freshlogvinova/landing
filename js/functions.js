@@ -1891,7 +1891,9 @@ var Util = function ($) {
       return (obj[0] || obj).nodeType;
     },
     typeCheckConfig: function typeCheckConfig(componentName, config, configTypes) {
-      for (var property in configTypes) {
+      
+var __hasOwnProperty = Object.prototype.hasOwnProperty.bind(configTypes);
+for (var property in configTypes) if (__hasOwnProperty(property)) {
         if (Object.prototype.hasOwnProperty.call(configTypes, property)) {
           var expectedTypes = configTypes[property];
           var value = config[property];
