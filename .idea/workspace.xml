@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd9f299a-0c22-4083-b093-56ca17377705" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-    </list>
+    <list default="true" id="bd9f299a-0c22-4083-b093-56ca17377705" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +44,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="7619" selection-start-line="7619" selection-end-line="7620" />
+            <state relative-caret-position="571">
+              <caret line="7617" column="12" lean-forward="true" selection-start-line="7617" selection-start-column="12" selection-end-line="7617" selection-end-column="12" />
               <folding>
                 <element signature="e#104184#104442#2" expanded="true" />
                 <element signature="e#104561#104819#2" expanded="true" />
@@ -234,7 +231,7 @@
       <workItem from="1529935386918" duration="1274000" />
       <workItem from="1529997537473" duration="425000" />
       <workItem from="1530020716096" duration="1842000" />
-      <workItem from="1530080713230" duration="2420000" />
+      <workItem from="1530080713230" duration="2970000" />
     </task>
     <task id="LOCAL-00001" summary="changed the path">
       <created>1529935814360</created>
@@ -285,15 +282,21 @@
       <option name="project" value="LOCAL" />
       <updated>1530093428320</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated css">
+      <created>1530093694845</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1530093694845</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5961000" />
+    <option name="totallyTimeSpent" value="6511000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1600" height="1164" extended-state="6" />
-    <editor active="true" />
+    <frame x="1920" y="0" width="1600" height="1164" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006435" side_tool="true" weight="0.33042637" />
@@ -342,7 +345,8 @@
     <MESSAGE value="Added autoprefixer" />
     <MESSAGE value="Added ie.css" />
     <MESSAGE value="Changed js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed js" />
+    <MESSAGE value="Updated css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated css" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -439,8 +443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="7619" selection-start-line="7619" selection-end-line="7620" />
+        <state relative-caret-position="571">
+          <caret line="7617" column="12" lean-forward="true" selection-start-line="7617" selection-start-column="12" selection-end-line="7617" selection-end-column="12" />
           <folding>
             <element signature="e#104184#104442#2" expanded="true" />
             <element signature="e#104561#104819#2" expanded="true" />
