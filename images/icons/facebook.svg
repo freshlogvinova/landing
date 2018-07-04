@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="37px" viewBox="0 0 19 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu" transform="translate(-1077.000000, -876.000000)" fill="#373E4B" fill-rule="nonzero">
+            <g id="Social" transform="translate(1077.000000, 876.000000)">
+                <path d="M19,0.266826923 L19,6.13701923 L15.5474537,6.13701923 C14.2866512,6.13701923 13.4363426,6.40384615 12.9965278,6.9375 C12.556713,7.47115385 12.3368056,8.27163462 12.3368056,9.33894231 L12.3368056,13.5414663 L18.7800926,13.5414663 L17.9224537,20.1231971 L12.3368056,20.1231971 L12.3368056,37 L5.60763889,37 L5.60763889,20.1231971 L0,20.1231971 L0,13.5414663 L5.60763889,13.5414663 L5.60763889,8.69411058 C5.60763889,5.93689904 6.36998458,3.79857772 7.89467593,2.27914663 C9.41936728,0.759715552 11.4498457,0 13.9861111,0 C16.1412037,0 17.8125,0.0889423077 19,0.266826923 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
