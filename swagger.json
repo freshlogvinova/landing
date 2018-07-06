@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "feature.proto",
+    "title": "Test Swagger for TCHOP",
     "version": "version not set"
   },
   "schemes": [
