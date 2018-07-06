@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd9f299a-0c22-4083-b093-56ca17377705" name="Default" comment="" />
+    <list default="true" id="bd9f299a-0c22-4083-b093-56ca17377705" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +16,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="1122">
               <caret line="46" column="4372" selection-start-line="46" selection-start-column="4372" selection-end-line="46" selection-end-column="4372" />
             </state>
           </provider>
@@ -42,17 +44,17 @@
       <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
+            <state relative-caret-position="42500">
               <caret line="2500" column="37" selection-start-line="2500" selection-start-column="37" selection-end-line="2500" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backend.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="backend.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="25" column="8914" selection-start-line="25" selection-start-column="8914" selection-end-line="25" selection-end-column="8914" />
+            <state relative-caret-position="646">
+              <caret line="25" column="8208" selection-start-line="25" selection-start-column="8208" selection-end-line="25" selection-end-column="8208" />
             </state>
           </provider>
         </entry>
@@ -69,8 +71,17 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="986" selection-start-line="8" selection-start-column="986" selection-end-line="8" selection-end-column="986" />
+            <state relative-caret-position="17">
+              <caret line="8" column="3116" selection-start-line="8" selection-start-column="3116" selection-end-line="8" selection-end-column="3116" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="curatedcontent.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/curatedcontent.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -88,7 +99,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;/apps&quot;</find>
       <find>&quot;/chat&quot;</find>
       <find>&quot;/chat.html&quot;</find>
       <find>&quot;/backend&quot;</find>
@@ -118,6 +128,7 @@
       <find>&lt;a href=&quot;.//</find>
       <find>font-fa</find>
       <find>/fonts/basier-circle/</find>
+      <find>fonts</find>
     </findStrings>
     <replaceStrings>
       <replace>./images</replace>
@@ -186,6 +197,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,41 +207,19 @@
             </path>
             <path>
               <item name="tchop-landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tchop-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tchop-landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tchop-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tchop-landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tchop-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tchop-landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tchop-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tchop-landing" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PLUS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -311,7 +301,8 @@
       <workItem from="1530512083312" duration="29000" />
       <workItem from="1530689457302" duration="3420000" />
       <workItem from="1530713812537" duration="10000" />
-      <workItem from="1530804142525" duration="249000" />
+      <workItem from="1530804142525" duration="489000" />
+      <workItem from="1530860434578" duration="659000" />
     </task>
     <task id="LOCAL-00001" summary="changed the path">
       <created>1529935814360</created>
@@ -425,15 +416,21 @@
       <option name="project" value="LOCAL" />
       <updated>1530804380905</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Updated the fonts">
+      <created>1530804512893</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1530804512893</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15297000" />
+    <option name="totallyTimeSpent" value="16196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1600" height="1164" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006435" side_tool="true" weight="0.33042637" />
@@ -456,13 +453,13 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993565" visible="true" weight="0.33236435" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27799228" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4993565" visible="true" weight="0.33236435" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2818533" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -490,9 +487,17 @@
     <MESSAGE value="Links were updated" />
     <MESSAGE value="Fixed the pathname" />
     <MESSAGE value="New updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="New updates" />
+    <MESSAGE value="Updated the fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the fonts" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="8" column="3116" lean-forward="true" selection-start-line="8" selection-start-column="3116" selection-end-line="8" selection-end-column="3116" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
@@ -773,16 +778,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="986" selection-start-line="8" selection-start-column="986" selection-end-line="8" selection-end-column="986" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="1122">
           <caret line="46" column="4372" selection-start-line="46" selection-start-column="4372" selection-end-line="46" selection-end-column="4372" />
         </state>
       </provider>
@@ -792,15 +790,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
+        <state relative-caret-position="42500">
           <caret line="2500" column="37" selection-start-line="2500" selection-start-column="37" selection-end-line="2500" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="25" column="8914" selection-start-line="25" selection-start-column="8914" selection-end-line="25" selection-end-column="8914" />
+        <state relative-caret-position="646">
+          <caret line="25" column="8208" selection-start-line="25" selection-start-column="8208" selection-end-line="25" selection-end-column="8208" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="3116" selection-start-line="8" selection-start-column="3116" selection-end-line="8" selection-end-column="3116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curatedcontent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
         </state>
       </provider>
     </entry>
