@@ -2,6 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd9f299a-0c22-4083-b093-56ca17377705" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/icon_plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/loading.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mobile/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/privacy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/swagger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/termsofservice.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend.html" afterDir="false" />
@@ -12,6 +43,8 @@
       <change beforePath="$PROJECT_DIR$/curatedcontent.html" beforeDir="false" afterPath="$PROJECT_DIR$/curatedcontent.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/integrations.html" beforeDir="false" afterPath="$PROJECT_DIR$/integrations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/functions.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/functions.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/functions.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/functions.min.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/functions_home.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/functions_home.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/functions_home.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/functions_home.min.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/principle.html" beforeDir="false" afterPath="$PROJECT_DIR$/principle.html" afterDir="false" />
@@ -26,56 +59,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="12" column="981" selection-start-line="12" selection-start-column="981" selection-end-line="12" selection-end-column="981" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="backend.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="26" column="8208" selection-start-line="26" selection-start-column="8208" selection-end-line="26" selection-end-column="8208" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="integrations.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/integrations.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="principle.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/principle.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="8" column="3116" selection-start-line="8" selection-start-column="3116" selection-end-line="8" selection-end-column="3116" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="curatedcontent.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/curatedcontent.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="swagger.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swagger.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,36 +68,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="swagger.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swagger.html">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="26" column="698" selection-start-line="26" selection-start-column="698" selection-end-line="26" selection-end-column="698" />
+            <state relative-caret-position="272">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apps.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps.html">
+      <file leaf-file-name="aboutus.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aboutus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="10" column="197" selection-start-line="10" selection-start-column="197" selection-end-line="10" selection-end-column="197" />
+            <state relative-caret-position="506">
+              <caret line="58" selection-start-line="58" selection-end-line="59" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cube.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/icons/Cube.svg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;/chat</find>
-      <find>&quot;/cura</find>
-      <find>&quot;/integr</find>
       <find>font</find>
       <find>princ</find>
       <find>Basier Circle</find>
@@ -122,7 +97,6 @@
       <find>images/icons/icon_twitt</find>
       <find>images</find>
       <find>images/icons/icon_twitter.svg</find>
-      <find>&quot;/images/</find>
       <find>&quot;/js/</find>
       <find>&quot;/css/</find>
       <find>&quot;../../images/</find>
@@ -135,16 +109,19 @@
       <find>swagger</find>
       <find>json</find>
       <find>jso</find>
-      <find>&quot;/css</find>
-      <find>&quot;/js</find>
+      <find>&quot;/fonts</find>
+      <find>Cube.s</find>
+      <find>&quot;/swagger</find>
       <find>&quot;/images</find>
       <find>&quot;../../images</find>
-      <find>&quot;/fonts</find>
-      <find>&quot;/swagger</find>
-      <find>Cube.s</find>
+      <find>а</find>
+      <find>&quot;/images/</find>
+      <find>&quot;./images</find>
+      <find>&quot;/js</find>
+      <find>&quot;/css</find>
+      <find>&quot;../</find>
     </findStrings>
     <replaceStrings>
-      <replace>./images</replace>
       <replace>./fonts/</replace>
       <replace>./images/</replace>
       <replace>./css</replace>
@@ -166,14 +143,15 @@
       <replace>./images/icons/</replace>
       <replace>&quot;./js/</replace>
       <replace>&quot;./css/</replace>
-      <replace>&quot;./images/</replace>
       <replace>&lt;a href=&quot;./</replace>
       <replace>./fonts/basier-circle/</replace>
-      <replace>&quot;./css</replace>
-      <replace>&quot;./js</replace>
-      <replace>&quot;./images</replace>
       <replace>&quot;./fonts</replace>
       <replace>&quot;./swagger</replace>
+      <replace>&quot;./images</replace>
+      <replace>&quot;./images/</replace>
+      <replace>&quot;./js</replace>
+      <replace>&quot;./css</replace>
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -206,7 +184,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1920" />
     <option name="width" value="1600" />
-    <option name="height" value="1164" />
+    <option name="height" value="1168" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -326,7 +304,12 @@
       <workItem from="1531319540788" duration="205000" />
       <workItem from="1531319823612" duration="220000" />
       <workItem from="1531320075419" duration="657000" />
-      <workItem from="1531379753667" duration="753000" />
+      <workItem from="1531379753667" duration="1372000" />
+      <workItem from="1531466203390" duration="869000" />
+      <workItem from="1531724276062" duration="1877000" />
+      <workItem from="1531811868619" duration="571000" />
+      <workItem from="1532086846004" duration="410000" />
+      <workItem from="1533123299873" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="changed the path">
       <created>1529935814360</created>
@@ -482,17 +465,25 @@
       <option name="project" value="LOCAL" />
       <updated>1531320097812</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Small animation fixes">
+      <created>1531407189751</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1531407189751</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18912000" />
+    <option name="totallyTimeSpent" value="23621000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1600" height="1164" extended-state="7" />
+    <frame x="1920" y="0" width="1600" height="1168" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.5006435" side_tool="true" visible="true" weight="0.33042637" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5026681" side_tool="true" weight="0.37227073" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="REPL" order="3" side_tool="true" />
@@ -510,10 +501,10 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993565" weight="0.37363833" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24903475" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49733192" visible="true" weight="0.33042637" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26512226" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -550,16 +541,10 @@
     <MESSAGE value="Added swagger" />
     <MESSAGE value="Small updates" />
     <MESSAGE value="Loading image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Loading image" />
+    <MESSAGE value="Small animation fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small animation fixes" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/principle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -809,24 +794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="8" column="3116" selection-start-line="8" selection-start-column="3116" selection-end-line="8" selection-end-column="3116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/curatedcontent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/swagger/swagger.json" />
     <entry file="file://$PROJECT_DIR$/principle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
+        <state relative-caret-position="4301">
           <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
         </state>
       </provider>
@@ -841,7 +812,7 @@
     <entry file="file://$PROJECT_DIR$/swagger.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="26" column="698" selection-start-line="26" selection-start-column="698" selection-end-line="26" selection-end-column="698" />
+          <caret line="26" column="700" selection-start-line="26" selection-start-column="700" selection-end-line="26" selection-end-column="700" />
         </state>
       </provider>
     </entry>
@@ -865,10 +836,34 @@
     <entry file="file://$PROJECT_DIR$/integrations.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/curatedcontent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="12" column="981" selection-start-line="12" selection-start-column="981" selection-end-line="12" selection-end-column="981" />
+        <state relative-caret-position="374">
+          <caret line="12" column="372" selection-start-line="12" selection-start-column="372" selection-end-line="12" selection-end-column="372" />
+          <folding>
+            <element signature="n#style#0;n#rect#0;n#svg#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aboutus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="58" selection-start-line="58" selection-end-line="59" />
         </state>
       </provider>
     </entry>
